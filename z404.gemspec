@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{z404}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jason Ronallo"]
@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
-    "config/routes.rb"
+    "config/routes.rb",
+    "lib/z404.rb"
   ]
   s.homepage = %q{http://github.com/jronallo/z404}
   s.licenses = ["MIT"]
