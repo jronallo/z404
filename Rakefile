@@ -17,11 +17,12 @@ Jeweler::Tasks.new do |gem|
   gem.name = "z404"
   gem.homepage = "http://github.com/jronallo/z404"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{404 route for rails 3}
+  gem.description = %Q{404 route for rails 3.0}
   gem.email = "jronallo@gmail.com"
   gem.authors = ["Jason Ronallo"]
   # dependencies defined in Gemfile
+  gem.files = ["config/routes.rb", "lib/z404.rb"]
 end
 Jeweler::RubygemsDotOrgTasks.new
 
